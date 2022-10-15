@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "tttest20221015"
+  site-url: "https://jbwhit.github.io/tttest20221015"
+  description: "netflix catalogue"
+  repo-branch: main
+  repo-url: "https://github.com/jbwhit/tttest20221015"
