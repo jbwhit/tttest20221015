@@ -6,4 +6,5 @@ d = { 'settings': { 'branch': 'main',
                 'git_url': 'https://github.com/jbwhit/tttest20221015',
                 'lib_path': 'tttest20221015'},
   'syms': { 'tttest20221015.core': { 'tttest20221015.core.foo': ('core.html#foo', 'tttest20221015/core.py'),
-                                     'tttest20221015.core.raw_to_clean': ('core.html#raw_to_clean', 'tttest20221015/core.py')}}}
+                                     'tttest20221015.core.raw_to_clean': ('core.html#raw_to_clean', 'tttest20221015/core.py')},
+            'tttest20221015.notes': {'tttest20221015.notes.foo': ('notes.html#foo', 'tttest20221015/notes.py')}}}
