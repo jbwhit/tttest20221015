@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "tttest20221015",
+    "section": "",
+    "text": "This file will become your README and also the index of your documentation."
+  },
+  {
+    "objectID": "index.html#install",
+    "href": "index.html#install",
+    "title": "tttest20221015",
+    "section": "Install",
+    "text": "Install\npip install tttest20221015"
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "tttest20221015",
+    "section": "How to use",
+    "text": "How to use\nFill me in please! Don’t forget code examples:\n\n1+1\n\n2"
+  },
+  {
+    "objectID": "notes.html",
+    "href": "notes.html",
+    "title": "David Robinson",
+    "section": "",
+    "text": "source"
+  },
+  {
+    "objectID": "notes.html#to-do",
+    "href": "notes.html#to-do",
+    "title": "David Robinson",
+    "section": "To Do",
+    "text": "To Do\n\ncheck min/ max values (year)\nare there duplicates?\nPlots\n\nHistogram of shows by type as a function of release year\nAre movies getting longer over time?\n\nboxplot movie length by decade\nmovie genre by median duration by length\ndate added\nrating percentage over time (by type)\nstacked horizontal bar chart countries and n by type\n\nCountries\nRatings\nDuration\n\nData cleaning\n\nlisted_in split apart and melt?\nseparate words in description\nyear_added is the year part of date_added\nconfidence bound pct_mature = n_mature / n, conf_low = qbeta(0.025, n_mature + 0.5, n - n_mature + 0.5), conf_high = qbeta(0.975, n_mature + 0.5, n - n_mature + 0.5),\n\n(qbeta(0.025, n_mature + 0.5, n - n_mature + 0.5) – Jeffries confidence interval – https://en.wikipedia.org/wiki/Binomial_proportion_confidence_interval#Jeffreys_interval\nModeling\n\nwhat is the log_odds between words that appear in the tv show descriptions and movie descriptions.\nwhat words co-occur?\n\nplot: graph of words that co-occur\nplot: Log-odds of word’s specificity to genre\n\nLasso regression (glmnet)\n\ndoes word predict rating?\ncross validate glmnet, family “binomial”"
+  },
+  {
+    "objectID": "core.html",
+    "href": "core.html",
+    "title": "core",
+    "section": "",
+    "text": "source\n\nfoo\n\n foo ()\n\n\n\nNetflix catalogue\n\n# netflix_titles <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2021/2021-04-20/netflix_titles.csv')\n\n\nsource\n\nraw_to_clean\n\n raw_to_clean (df_)\n\n\n# todo come back to this\nshows['listed_in'].str.split(',', expand=True).tail(20)\n\n\n\n\n\n  \n    \n      \n      0\n      1\n      2\n    \n  \n  \n    \n      7767\n      International TV Shows\n      Romantic TV Shows\n      TV Dramas\n    \n    \n      7768\n      Dramas\n      International Movies\n      Romantic Movies\n    \n    \n      7769\n      Comedies\n      Dramas\n      International Movies\n    \n    \n      7770\n      Dramas\n      International Movies\n      Thrillers\n    \n    \n      7771\n      Documentaries\n      Sports Movies\n      None\n    \n    \n      7772\n      Children & Family Movies\n      Comedies\n      None\n    \n    \n      7773\n      Documentaries\n      International Movies\n      Music & Musicals\n    \n    \n      7774\n      Cult Movies\n      Dramas\n      Thrillers\n    \n    \n      7775\n      Anime Series\n      Kids' TV\n      None\n    \n    \n      7776\n      Children & Family Movies\n      Dramas\n      None\n    \n    \n      7777\n      Kids' TV\n      Korean TV Shows\n      TV Comedies\n    \n    \n      7778\n      Comedies\n      Horror Movies\n      None\n    \n    \n      7779\n      International TV Shows\n      Spanish-Language TV Shows\n      Stand-Up Comedy & Talk Shows\n    \n    \n      7780\n      Dramas\n      Independent Movies\n      International Movies\n    \n    \n      7781\n      Children & Family Movies\n      Comedies\n      None\n    \n    \n      7782\n      Dramas\n      International Movies\n      None\n    \n    \n      7783\n      Dramas\n      International Movies\n      Music & Musicals\n    \n    \n      7784\n      Documentaries\n      International Movies\n      Music & Musicals\n    \n    \n      7785\n      International TV Shows\n      Reality TV\n      None\n    \n    \n      7786\n      Documentaries\n      Music & Musicals\n      None"
+  }
+]
